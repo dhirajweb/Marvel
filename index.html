@@ -3,10 +3,16 @@
 <head>
 	<title>Marvel</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<section class="header">
+	<section class="header1">
 		<header>					<!--header start-->
 			<div class="logo-div">
 				<a href=""><img class="logo" alt="logo" src="marvellogo.png"></a>
@@ -90,22 +96,39 @@
 		</div>
 	</section>
 
-	<section class="testimonials">
-		<div class="testimonials-div">
-			<div class="testimonials-div-h1">
-				<h1>MARVEL CINEMATIC UNIVERSE</h1>
-			</div>
-			<div class="testimonials-div-p">
-			    <p>The Marvel Cinematic Universe is an American media franchise and shared universe centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in American comic books published by Marvel Comics.</p>
-			</div>
-			<div class="testimonials-div-p2">
-				<p>Joe Russo -Director</p>
-			</div>
-			<span class="dot"></span>
-			<span class="dot"></span>
-			<span class="dot"></span>
-		</div>
-	</section>
+<section class="testimonials">
+	<div class="container">  
+ 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+			    <ol class="carousel-indicators">
+			      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			      <li data-target="#myCarousel" data-slide-to="1"></li>
+			      <li data-target="#myCarousel" data-slide-to="2"></li>
+			    </ol>
+
+    <!-- Wrapper for slides -->
+		    <div class="carousel-inner">
+		        <div class="item active">
+		          <h1>MARVEL CINEMATIC UNIVERSE</h1>
+		            <p>The Marvel Cinematic Universe is an American media franchise and shared universe centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in American comic books published by Marvel Comics.</p>
+		            <p>Joe Russo -Director</p>
+		        </div>
+
+		        <div class="item">
+		          <h1>MARVEL CINEMATIC UNIVERSE</h1>
+		            <p>The Marvel Cinematic Universe is an American media franchise and shared universe centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in American comic books published by Marvel Comics.</p>
+		            <p>Joe Russo -Director</p>
+		        </div>
+
+		        <div class="item">
+		          <h1>MARVEL CINEMATIC UNIVERSE</h1>
+		            <p>The Marvel Cinematic Universe is an American media franchise and shared universe centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in American comic books published by Marvel Comics.</p>
+		            <p>Joe Russo -Director</p>
+		        </div>
+		    </div><br><br><br>
+  		</div>
+	</div>
+</section>
 
 	<section class="sec-four">
 		<div class="sec-four-div">
